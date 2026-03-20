@@ -1,6 +1,6 @@
 {
 	"Name": "Dead by Dawn Easter Event",
-	"Version": 1774039448,
+	"Version": 1774040969,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -461,7 +461,7 @@
 				"Toolbox": {
 					"Addons": [
 						0,
-						2
+						1
 					]
 				},
 				"Key": {
@@ -632,10 +632,15 @@
 				"34"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				5
 			],
 			"SurvivorBalanceTiers": [
 				0,
+				1,
+				2,
+				3,
+				4,
 				5
 			],
 			"AntiFacecampPermitted": false,
