@@ -1,6 +1,6 @@
 {
 	"Name": "Dead by Dawn Easter Event",
-	"Version": 1773966978,
+	"Version": 1774039448,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -461,7 +461,7 @@
 				"Toolbox": {
 					"Addons": [
 						0,
-						1
+						2
 					]
 				},
 				"Key": {
@@ -652,13 +652,19 @@
 				115,
 				118
 			],
-			"ItemWhitelist": [],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						2,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -676,8 +682,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5,
+				16
+			]
 		},
 		{
 			"Name": "The Doctor",
