@@ -1,6 +1,6 @@
 {
 	"Name": "Dead by Dawn Easter Event",
-	"Version": 1780523548,
+	"Version": 1780545486,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -575,7 +575,7 @@
 		{
 			"Name": "The Shape",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				0
 			],
@@ -1256,7 +1256,7 @@
 		{
 			"Name": "The Plague",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				"4",
 				"5"
