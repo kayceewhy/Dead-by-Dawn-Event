@@ -1,12 +1,13 @@
 {
 	"Name": "Dead by Dawn Event Balancing",
-	"Version": 1781047917,
+	"Version": 1781119170,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
 		{
 			"Name": "General",
 			"SurvivorIndvPerkBans": [
+				"306",
 				"3",
 				"285",
 				"6",
@@ -40,6 +41,8 @@
 				"268",
 				"267",
 				"46",
+				"307",
+				"308",
 				"49",
 				"55",
 				"274",
@@ -113,6 +116,7 @@
 				"291",
 				"178",
 				"180",
+				"310",
 				"183",
 				"264",
 				"265",
@@ -128,6 +132,7 @@
 				"205",
 				"284",
 				"211",
+				"309",
 				"292",
 				"214",
 				"216",
@@ -135,6 +140,7 @@
 				"219",
 				"298",
 				"209",
+				"311",
 				"225",
 				"227",
 				"229",
@@ -185,6 +191,7 @@
 				"163",
 				"169",
 				"174",
+				"184",
 				"220",
 				"297"
 			],
@@ -247,6 +254,7 @@
 				"8",
 				"11",
 				"27",
+				"273",
 				"30",
 				"32",
 				"89",
@@ -656,13 +664,21 @@
 				115,
 				118
 			],
-			"ItemWhitelist": [],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -680,8 +696,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5,
+				16
+			]
 		},
 		{
 			"Name": "The Doctor",
@@ -2566,7 +2589,9 @@
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [],
 			"SurvivorComboPerkBans": [],
-			"SurvivorWhitelistedPerks": [],
+			"SurvivorWhitelistedPerks": [
+				"273"
+			],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
@@ -2980,7 +3005,12 @@
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
-			"KillerComboPerkBans": [],
+			"KillerComboPerkBans": [
+				[
+					"160",
+					"210"
+				]
+			],
 			"SurvivorIndvPerkBans": [],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
@@ -3060,7 +3090,12 @@
 			"KillerIndvPerkBans": [
 				"220"
 			],
-			"KillerComboPerkBans": [],
+			"KillerComboPerkBans": [
+				[
+					"160",
+					"210"
+				]
+			],
 			"SurvivorIndvPerkBans": [],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
@@ -3126,7 +3161,7 @@
 		{
 			"Name": "The Slasher",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				0
 			],
