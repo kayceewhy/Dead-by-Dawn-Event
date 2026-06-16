@@ -1,6 +1,6 @@
 {
 	"Name": "Dead by Dawn Event Balancing",
-	"Version": 1781119170,
+	"Version": 1781637509,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -338,6 +338,7 @@
 			"KillerNotes": "When playing on Midwich - the killer player MUST choose between Putrid Oak or Ebony Memento Mori!",
 			"IsDisabled": false,
 			"Map": [
+				"20",
 				"33",
 				"34"
 			],
