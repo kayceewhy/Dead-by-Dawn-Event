@@ -1,6 +1,6 @@
 {
 	"Name": "Dead by Dawn Event Balancing",
-	"Version": 1782069825,
+	"Version": 1782158994,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -470,7 +470,7 @@
 				"Toolbox": {
 					"Addons": [
 						0,
-						1
+						2
 					]
 				},
 				"Key": {
@@ -1207,7 +1207,7 @@
 				"Toolbox": {
 					"Addons": [
 						0,
-						1
+						2
 					]
 				},
 				"Key": {
